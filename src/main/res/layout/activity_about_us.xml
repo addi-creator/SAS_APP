@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:background="@drawable/background"
+    tools:context=".AboutUs">
+
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_marginLeft="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/aboutText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/a"
+        android:layout_marginTop="20dp"
+        android:text="1. This SAS app is developed to protect people's lives in any type of emergency situation. \n\n 2. In case of any unsafe situation, just Tap the SOS button to raise a emergency SOS alert to the trusted contacts saved in the application. \n\n 3. The SOS alert will be in the form of an SMS informing that you are unsafe and need help.The SMS includes accurate current GPS location with the address of the user along with a google map link. \n\n 4. The trusted contacts can use this google map link to get directions and navigate to the exact location of the distressed person.\n\n5.  The app can be used for your personal safety and children safety.
+In order to send the SOS alert to the trusted contacts, the user should accept a few permissions that prompt within the application. These granted permissions allow application to get the location details, read contacts, perform calls, and send sms.
+\n\n 6. This application is meant for SOS alerts in case of any emergencies. So the developer is not responsible for any misuse of the application."
+        android:textSize="14dp" />
+
+</RelativeLayout>

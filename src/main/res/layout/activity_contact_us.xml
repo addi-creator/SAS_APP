@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="35dp"
+    android:background="@drawable/background"
+    tools:context=".ContactUs">
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textSize="30dp"
+        android:layout_marginLeft="70dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/list"
+        android:layout_below="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Want to get in touch? We'd love to hear from you. Here's how you can reach us..."/>
+
+    <TextView
+        android:id="@+id/con"
+        android:layout_below="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="70dp"
+        android:text="Contact Details"
+        android:textSize="23dp"/>
+    <TextView
+        android:id="@+id/contacttext"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/con"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:text="Name: SAS Team \nEmail: khareaddi13@gmail.com\nMobile Number: +91 8810624919"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
